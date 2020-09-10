@@ -1,7 +1,7 @@
 # Breast-Cancer-Detection
 
 # Creating an AI app for Breast Cancer Detection
-![alt](http://www.innovationandtech.ae/wp-content/uploads/2018/01/Cancer-Prognosis-Prediction-using-AI-810x324.jpg)
+![Cancer Prognosis using AI](https://cms.qz.com/wp-content/uploads/2018/08/breast-cancer-animated-final.gif?w=1400&strip=all&quality=75)
 
 Breast cancer has the second highest mortality rate in women next to lung cancer. As per clinical statistics, 1 in every 8 women is diagnosed with breast cancer in their lifetime. However, periodic clinical checkups and self-tests help in early detection and thereby significantly increase the chances of survival. Invasive detection techniques cause rupture of the tumor, accelerating the spread of cancer to adjoining areas. Hence, there arises the need for a more robust, fast, accurate, and efficient noninvasive cancer detection system (Selvathi, D & Aarthy Poornila, A. (2018). Deep Learning Techniques for Breast Cancer Detection Using Medical Image Analysis).
 
