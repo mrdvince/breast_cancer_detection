@@ -11,7 +11,11 @@ Architectural Distortion (AD) is a very subtle contraction of the breast tissue 
 
 AI will become a transformational force in healthcare and soon, computer vision models will be able to get a higher accuracy when researchers have the access to more medical imaging datasets.
 
-We will develop a computer vision model to detect breast cancer in histopathological images. Two classes will be used in this project: **Benign and Malignant.**
+##### We will develop a computer vision model to detect breast cancer in histopathological images. Two classes will be used in this project:
+<ol> 
+    <li> Benign </li>
+    <li> and Malignant. </li>
+    </ol>
 
 # Breast Cancer Histopathological Database (BreakHis)
 
@@ -29,7 +33,7 @@ We are going to determine if there exists cancer or not.
 # Instructions
 
 The project is broken down into multiple steps:
-
-    Load and preprocess the image dataset
-    Train the image classifier on your dataset
-    Use the trained classifier to predict image content
+<ol>
+    <li>  Load and preprocess the image dataset</li>
+    <li> Train the image classifier on your dataset </li>
+    <li> Use the trained classifier to predict image content </li> </ol>
