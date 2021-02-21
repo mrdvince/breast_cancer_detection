@@ -1,15 +1,15 @@
 {
-    "name": "Mnist_LeNet",
+    "name": "BCResnet",
     "n_gpu": 1,
 
     "arch": {
-        "type": "MnistModel",
+        "type": "ResNet",
         "args": {}
     },
     "data_loader": {
-        "type": "MnistDataLoader",
+        "type": "BCDataLoader",
         "args":{
-            "data_dir": "data/",
+            "data_dir": "/mnt/c/Users/vinc3/Downloads/BreaKHis_v1/BreaKHis_v1/histology_slides/breast",
             "batch_size": 128,
             "shuffle": true,
             "validation_split": 0.1,
@@ -36,7 +36,7 @@
         }
     },
     "trainer": {
-        "epochs": 100,
+        "epochs": 1,
 
         "save_dir": "saved/",
         "save_period": 1,
