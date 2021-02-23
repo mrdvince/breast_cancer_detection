@@ -1,7 +1,7 @@
 import torch.nn as nn
 import torch.nn.functional as F
 from base import BaseModel
-
+from torchvision import models
 '''ResNet in PyTorch.
 For Pre-activation ResNet, see 'preact_resnet.py'.
 Reference:
@@ -102,3 +102,12 @@ class ResNet(BaseModel):
         out = out.view(out.size(0), -1)
         out = self.linear(out)
         return F.log_softmax(out, dim=1)
+
+def densenet121():
+    model_transfer = models.densenet121(pretrained=True)
+    for param in model_transfer.features.parameters():
+        param.requires_grad = False
+        
+    model_transfer.classifier = nn.Linear(1024, 2)
+
+    return model_transfer
