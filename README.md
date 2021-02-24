@@ -1,22 +1,9 @@
-# Breast-Cancer-Detection
+# Breast Cancer Histopathological Dataset (BreakHis)
 
-# Creating an AI app for Breast Cancer Detection
+A computer vision model to detect breast cancer in histopathological images. The two classes include:
 
-Breast cancer has the second highest mortality rate in women next to lung cancer. As per clinical statistics, 1 in every 8 women is diagnosed with breast cancer in their lifetime. However, periodic clinical checkups and self-tests help in early detection and thereby significantly increase the chances of survival. Invasive detection techniques cause rupture of the tumor, accelerating the spread of cancer to adjoining areas. Hence, there arises the need for a more robust, fast, accurate, and efficient noninvasive cancer detection system (Selvathi, D & Aarthy Poornila, A. (2018). Deep Learning Techniques for Breast Cancer Detection Using Medical Image Analysis).
-
-Early detection can give patients more treatment options. In order to detect signs of cancer, breast tissue from biopsies is stained to enhance the nuclei and cytoplasm for microscopic examination. Then, pathologists evaluate the extent of any abnormal structural variation to determine whether there are tumors.
-
-Architectural Distortion (AD) is a very subtle contraction of the breast tissue and may represent the earliest sign of cancer. Since it is very likely to be unnoticed by radiologists, several approaches have been proposed over the years but none using deep learning techniques. 
-
-AI will become a transformational force in healthcare and soon, computer vision models will be able to get a higher accuracy when researchers have the access to more medical imaging datasets.
-
-##### We will develop a computer vision model to detect breast cancer in histopathological images. Two classes will be used in this project:
-<ol> 
-    <li> Benign </li>
-    <li> and Malignant. </li>
-    </ol>
-
-# Breast Cancer Histopathological Database (BreakHis)
+- Benign
+- and Malignant.
 
 From https://www.kaggle.com/ambarish/breakhis description:
 
