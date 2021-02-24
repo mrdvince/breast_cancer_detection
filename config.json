@@ -9,7 +9,7 @@
     "data_loader": {
         "type": "BCDataLoader",
         "args":{
-            "data_dir": "/content/BreaKHis_v1/BreaKHis_v1/histology_slides/breast",
+            "data_dir": "data/BreaKHis_v1/BreaKHis_v1/histology_slides/breast",
             "batch_size": 16,
             "shuffle": true,
             "validation_split": 0.1,
