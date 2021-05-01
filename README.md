@@ -45,7 +45,7 @@ To set up your python environment to run the code in this repository, follow the
 
 2. Clone the repository (if you haven't already!), and navigate to the `breast-cancer-detection` folder.  Then, install several dependencies.
 ```bash
-git clone https://github.com/Droid021/breast-cancer-detection.git
+git clone https://github.com/mrdvince/breast-cancer-detection.git
 cd breast-cancer-detection
 pip install -r requirements.txt
 ```
